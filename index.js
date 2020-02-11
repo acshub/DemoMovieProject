@@ -2,7 +2,7 @@ const express = require('express')
 const ombClient = require('omdb-client')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 3017
+const port = 80
 
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube('AIzaSyAU3QbSxOJny454Ix7C4lJOCxERg3UTqC0')
